@@ -1,0 +1,1 @@
+This React Native code attempts to access a native module before it's been properly loaded. This often occurs when the native module is loaded asynchronously, and the component tries to use it before the loading completes.
